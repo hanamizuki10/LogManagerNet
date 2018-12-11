@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogManagerNet4.6", "LogManagerNet\LogManagerNet4.6.csproj", "{4A163133-DA3A-41FD-9A2E-B58993A8AB91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogManagerNetUnitTest", "LogManagerNetUnitTest\LogManagerNetUnitTest.csproj", "{F7726D17-F11E-4CDA-A20A-4E53F2A7CBA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A163133-DA3A-41FD-9A2E-B58993A8AB91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A163133-DA3A-41FD-9A2E-B58993A8AB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A163133-DA3A-41FD-9A2E-B58993A8AB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A163133-DA3A-41FD-9A2E-B58993A8AB91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7726D17-F11E-4CDA-A20A-4E53F2A7CBA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7726D17-F11E-4CDA-A20A-4E53F2A7CBA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7726D17-F11E-4CDA-A20A-4E53F2A7CBA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7726D17-F11E-4CDA-A20A-4E53F2A7CBA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F899DDD2-596D-4400-888A-4E78E39E6FE3}
+	EndGlobalSection
+EndGlobal

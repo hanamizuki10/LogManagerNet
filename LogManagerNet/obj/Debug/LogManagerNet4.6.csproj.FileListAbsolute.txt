@@ -1,0 +1,6 @@
+D:\Visual Studio 2017\source\repos\LogManagerNet\LogManagerNet\bin\Debug\LogManagerNet.dll
+D:\Visual Studio 2017\source\repos\LogManagerNet\LogManagerNet\bin\Debug\LogManagerNet.pdb
+D:\Visual Studio 2017\source\repos\LogManagerNet\LogManagerNet\obj\Debug\LogManagerNet4.6.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2017\source\repos\LogManagerNet\LogManagerNet\obj\Debug\LogManagerNet4.6.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2017\source\repos\LogManagerNet\LogManagerNet\obj\Debug\LogManagerNet.dll
+D:\Visual Studio 2017\source\repos\LogManagerNet\LogManagerNet\obj\Debug\LogManagerNet.pdb
