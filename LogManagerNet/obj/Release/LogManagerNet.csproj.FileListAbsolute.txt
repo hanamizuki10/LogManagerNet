@@ -1,6 +1,0 @@
-D:\Visual Studio 2017\source\repos\LogManagerNet\LogManagerNet\bin\Release\LogManagerNet.dll
-D:\Visual Studio 2017\source\repos\LogManagerNet\LogManagerNet\bin\Release\LogManagerNet.pdb
-D:\Visual Studio 2017\source\repos\LogManagerNet\LogManagerNet\obj\Release\LogManagerNet.csprojResolveAssemblyReference.cache
-D:\Visual Studio 2017\source\repos\LogManagerNet\LogManagerNet\obj\Release\LogManagerNet.csproj.CoreCompileInputs.cache
-D:\Visual Studio 2017\source\repos\LogManagerNet\LogManagerNet\obj\Release\LogManagerNet.dll
-D:\Visual Studio 2017\source\repos\LogManagerNet\LogManagerNet\obj\Release\LogManagerNet.pdb
