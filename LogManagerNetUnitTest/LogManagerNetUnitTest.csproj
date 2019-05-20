@@ -52,6 +52,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="log.config" />
+    <None Include="log.type1.config" />
+    <None Include="log.type2.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -70,4 +73,10 @@
     <Error Condition="!Exists('..\packages\MSTest.TestAdapter.1.2.0\build\net45\MSTest.TestAdapter.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSTest.TestAdapter.1.2.0\build\net45\MSTest.TestAdapter.targets'))" />
   </Target>
   <Import Project="..\packages\MSTest.TestAdapter.1.2.0\build\net45\MSTest.TestAdapter.targets" Condition="Exists('..\packages\MSTest.TestAdapter.1.2.0\build\net45\MSTest.TestAdapter.targets')" />
+  <PropertyGroup>
+    <PostBuildEvent>copy /Y /V "$(ProjectDir)log.config" "$(TargetDir)log.config"
+copy /Y /V "$(ProjectDir)log.type1.config" "$(TargetDir)log.type1.config"
+copy /Y /V "$(ProjectDir)log.type2.config" "$(TargetDir)log.type2.config"
+</PostBuildEvent>
+  </PropertyGroup>
 </Project>

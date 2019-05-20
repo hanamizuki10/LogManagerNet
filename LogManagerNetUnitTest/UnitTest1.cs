@@ -1,14 +1,14 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Threading.Tasks;
 using LogManagerNet;
+
 namespace LogManagerNetUnitTest
 {
     [TestClass]
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestMethod1_base()
         {
             LogManager logger = LogManager.GetInstance();
             logger.Debug("テスト");
@@ -17,6 +17,12 @@ namespace LogManagerNetUnitTest
             logger.Error("テスト");
             logger.Fatal("テスト");
 
+        }
+        [TestMethod]
+        public void TestMethod1_type1()
+        {
+
+
             LogManager logger2 = LogManager.GetInstance("type1");
             logger2.Debug("テスト");
             logger2.Info("テスト");
@@ -24,8 +30,22 @@ namespace LogManagerNetUnitTest
             logger2.Error("テスト");
             logger2.Fatal("テスト");
 
-        }
 
+
+        }
+        [TestMethod]
+        public void TestMethod1_type2()
+        {
+
+
+
+            LogManager logger3 = LogManager.GetInstance("type2");
+            logger3.Debug("テスト");
+            logger3.Info("テスト");
+            logger3.Warn("テスト");
+            logger3.Error("テスト");
+            logger3.Fatal("テスト");
+        }
 
         [TestMethod]
         public void TestMethod2()
