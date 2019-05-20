@@ -1,0 +1,15 @@
+2019/05/20 20:10:00.593,18808,12,42217472,INFO,LogManager.cs,.ctor,87,[Config]ConfigFile=log.config
+2019/05/20 20:10:00.593,18808,12,42233856,INFO,LogManager.cs,.ctor,88,[Config]LogLevel=DEBUG
+2019/05/20 20:10:00.593,18808,12,42233856,INFO,LogManager.cs,.ctor,89,[Config]MaxSizeLimitMB=1048576( 1 * 1024 * 1024 )
+2019/05/20 20:10:00.593,18808,12,42250240,INFO,LogManager.cs,.ctor,90,[Config]LogRotateLimitIndex=0
+2019/05/20 20:10:00.593,18808,12,42258432,INFO,LogManager.cs,.ctor,91,[Config]Encoding=System.Text.DBCSCodePageEncoding
+2019/05/20 20:10:00.593,18808,12,42258432,INFO,LogManager.cs,.ctor,92,[Config]LogDirPath=..\..\..\bin\logs
+2019/05/20 20:10:00.593,18808,12,42258432,INFO,LogManager.cs,.ctor,93,[Config]LogFileName=_debug
+2019/05/20 20:10:00.593,18808,12,42274816,INFO,LogManager.cs,.ctor,94,[Config]LogFileNameExtension=.log
+2019/05/20 20:10:00.593,18808,12,42274816,INFO,LogManager.cs,.ctor,95,[Config]LogFileNamePrefixDateTimeString=yyyyMMdd
+2019/05/20 20:10:00.593,18808,12,42291200,INFO,LogManager.cs,.ctor,96,[Config]LogFileNameSuffixDateTimeString=
+2019/05/20 20:10:00.593,18808,12,42299392,DEBUG,UnitTest1.cs,TestMethod1_base,14,テスト
+2019/05/20 20:10:00.593,18808,12,42299392,INFO,UnitTest1.cs,TestMethod1_base,15,テスト
+2019/05/20 20:10:00.593,18808,12,42315776,WARN,UnitTest1.cs,TestMethod1_base,16,テスト
+2019/05/20 20:10:00.593,18808,12,42315776,ERROR,UnitTest1.cs,TestMethod1_base,17,テスト
+2019/05/20 20:10:00.593,18808,12,42315776,FATAL,UnitTest1.cs,TestMethod1_base,18,テスト
