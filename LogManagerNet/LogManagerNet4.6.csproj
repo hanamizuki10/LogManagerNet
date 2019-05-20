@@ -46,9 +46,11 @@
     <Compile Include="LogManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="log.type1.config" />
-    <None Include="log.config" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>if  "$(ConfigurationName)" == "Release" (
+      copy /Y /V "$(TargetPath)" "$(SolutionDir)bin\LogManagerNet.dll"
+)
+</PostBuildEvent>
+  </PropertyGroup>
 </Project>
